@@ -30,7 +30,15 @@
 
 h1{
   font-family: "Noto Serif", serif;
-  font-size: xx-large;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+p{
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.50);
 }
 
 a:hover{
