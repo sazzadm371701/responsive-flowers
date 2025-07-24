@@ -16,7 +16,6 @@
 
 .noto-serif-bold {
   font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
@@ -28,19 +27,21 @@
   font-style: normal;
 }
 
-h1{
+h1 {
   font-family: "Noto Serif", serif;
   font-weight: bold;
   font-size: 50px;
 }
 
-p{
+.body-text {
   font-family: "Inter", sans-serif;
-  font-weight: normal;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   font-size: 22px;
-  color: rgba(0, 0, 0, 0.50);
+  color: rgba(0, 0, 0, 0.5);
 }
 
-a:hover{
+a:hover {
   color: #e85a08;
 }
